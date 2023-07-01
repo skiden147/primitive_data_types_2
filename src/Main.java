@@ -1,17 +1,17 @@
 public class Main {
     public static void main(String[] args) {
 
-        int current_account = 2000;
-        int bonus_account = 100;
-        int incoming_funds = 1500;
-        int bonus = incoming_funds / 100;
+        int currentAccount = 2000;
+        int bonusAccount = 100;
+        int incomingFunds = 1500;
+        int bonus = incomingFunds / 100;
 
-        if (incoming_funds > 1000) {
-            System.out.println("Your final account:" + (current_account + incoming_funds + bonus_account + bonus));
-            System.out.println("Your bonus account:" + (bonus_account + bonus));
+        if (incomingFunds > 1000) {
+            System.out.println("Your final account:" + (currentAccount + incomingFunds + bonusAccount + bonus));
+            System.out.println("Your bonus account:" + (bonusAccount + bonus));
         } else {
-            System.out.println("Your final account:" + (current_account + incoming_funds + bonus_account));
-            System.out.println("Your bonus account:" + (bonus_account));
+            System.out.println("Your final account:" + (currentAccount + incomingFunds + bonusAccount));
+            System.out.println("Your bonus account:" + (bonusAccount));
         }
 
 
